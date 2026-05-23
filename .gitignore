@@ -1,0 +1,42 @@
+# Zero-Key Compliance (NEVER COMMIT CREDENTIALS)
+.env
+.env.*
+*.json
+!package.json
+!tsconfig.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env_python/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node / Next.js
+node_modules/
+.npm/
+.next/
+out/
+build/
+dist/
+
+# GCP / ADC
+.gcloud/
+application_default_credentials.json
+
+# IDEs / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
